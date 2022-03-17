@@ -1,0 +1,10 @@
+<!-- Trabajo con formulario (no reactivos)-->
+<form (ngSubmit)="onSubmit()">
+  <label id="nombre">Nombre:</label>
+  <input name="nombre" [(ngModel)]="nombre">
+  <br/>
+  <label id="email">email:</label>
+  <input name="email" [(ngModel)]="email">
+  <br/>
+  <input type="submit" value="Enviar">
+</form>

@@ -1,0 +1,12 @@
+<p>Lista de Profesores</p>
+
+<label>Nombre: <input type="text" [(ngModel)]="profe"/>
+  <button (click)="anhadirProfe()">Añadir profesor</button>
+</label>
+
+<ul>
+  <li
+  *ngFor="let p of profes">{{p}} <button (click)="quitarProfe(profe)">X</button></li>
+</ul>
+
+

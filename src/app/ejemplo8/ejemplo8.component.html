@@ -1,0 +1,11 @@
+<!-- style class attr bounds-->
+
+<button style="color:red">Un boton</button>
+<button [style.color]="colorTexto">Un boton</button>
+<button [style.color]="getColor()">Un boton</button>
+<button [style.color]="'violet'">Un boton</button>
+<button [style.color]="hasErrors()?'red':'blue'">Un boton</button>
+<br/>
+<button class = "colorido">Un boton</button>
+<button [class.colorido]="true">Un boton</button>
+<button [class.colorido]="hasErrors()">Un boton</button>

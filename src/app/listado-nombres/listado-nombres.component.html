@@ -1,0 +1,7 @@
+Introducir texto: <input type="text" [(ngModel)]="texto">
+<br>
+<button (click)="introducirArray()">Introducir</button>
+<br>
+<ul *ngFor="let a of array, index as i">
+  <li>{{i}} {{a}} <a href="#" (click)="borrarElementoArray(i)">X</a></li>
+</ul>

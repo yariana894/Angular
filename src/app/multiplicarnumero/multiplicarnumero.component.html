@@ -1,0 +1,9 @@
+Numero 1: <input type="text" #num1>
+<br>
+Numero 2: <input type="text" #num2>
+<br>
+<button (click)="multiplicar(num1.value, num2.value)">Sumar</button>
+<br>
+<span *ngIf="num1.value !=null && num2.value != null">La multiplicación
+  de {{num1.value}} por {{num2.value}}
+  vale: {{resultado}}</span>

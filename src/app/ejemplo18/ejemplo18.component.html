@@ -1,0 +1,12 @@
+<!-- Formulario reactivos-->
+<!-- No olvides import en el appModule    ReactiveFormsModule-->
+<form [formGroup]="form" (submit)="onSubmit(form.value)">
+  <label form="nombre">Nombre:</label>
+  <input name="nombre" formControlName="nombre">
+  <br/>
+  <label form="email">Email:</label>
+  <input name="email" formControlName="email">
+  <br/>
+  <!--form.invalid cuando el formulario es invalido-->
+  <input type="submit" value="Enviar" [disabled]="form.invalid" ]>
+</form>

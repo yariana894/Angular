@@ -1,0 +1,6 @@
+ANGULAR
+npm i -g @angular/cli --> instalar angular
+
+ng new nombre-proyecto<-crear proyecto de angular
+
+como regenerar node_modules --> npm install

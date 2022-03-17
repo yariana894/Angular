@@ -1,0 +1,8 @@
+<!-- template reference-->
+
+Numero 1 <input type="text" #num1>
+Numero 2 <input type="text" #num2>
+<br>
+<button (click)="sumar(num1.value, num2.value)">Sumar</button>
+<br>
+La suma vale: {{resultado}}

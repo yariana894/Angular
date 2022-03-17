@@ -1,4 +1,20 @@
 # EjemploAngular
+`npm i -g @angular/cli` --> instalar angular
+
+`ng new nombre-proyecto` <-crear proyecto de angular
+
+`npm install` -> como regenerar node_modules
+
+`ng serve --open` -> ejecutar servidor en cmd sino no va aparece un error de deshabilitar scripts
+
+abrimos terminal "command prompt" -> `ng g c xxxx` -> para crear un componente
+
+PARA CREAR PIPES `ng g p xxxx`
+
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
 
